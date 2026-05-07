@@ -15,7 +15,7 @@ import plotly.graph_objects as go
 import calendar
 import time
 
-os.chdir(r'C:\Users\HP\SmartRailAdvisor')
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # ══════════════════════════════════════
 # PAGE CONFIG — MUST BE FIRST
